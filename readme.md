@@ -40,7 +40,7 @@ This small tutorial illustrates how to use Browserify to prepare Handlebars temp
 * Create `src/widgets.hbs`
 
   ```xml
-  {{#each widget}}
+  {{#each widgets}}
     <div class="widget">
       <h3>{{name}}</h3>
       <p>Category: {{category}}</p>
