@@ -1,0 +1,21 @@
+{
+  "name": "bundling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t hbsfy src/index.js > public/bundle.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "handlebars": "^4.0.5",
+    "hbsfy": "^2.7.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "superagent": "^2.0.0"
+  }
+}
