@@ -71,7 +71,7 @@ This small tutorial illustrates how to use Browserify to prepare Handlebars temp
   function showWidgets (err, res) {
     var viewModel = {widgets: res.body}
     var widgetsHtml = widgetsTemplate(viewModel)
-    document.getElementById('widgets').innerHtml(widgetsHtml)
+    document.getElementById('widgets').innerHTML = widgetsHtml
   })
   ```
 
