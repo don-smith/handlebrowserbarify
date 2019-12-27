@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^13.0.1",
+    "browserify": "^16.5.0",
     "handlebars": "^4.0.5",
     "hbsfy": "^2.7.0"
   },
